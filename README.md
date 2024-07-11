@@ -1,7 +1,11 @@
 # My Portfolio
 
-Old version ![https://github.com/marcozsh/portfolio-old] (https://github.com/marcozsh/portfolio-old)
+<a align="center" href="https://github.com/marcozsh/portfolio-old">
 
+Old version 
+![Old Badge](https://img.shields.io/badge/Portfolio-old-purple)
+
+</a>
 <div align="center">
 <a href="">
 <img src="./public/front-page.png">
