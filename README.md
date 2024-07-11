@@ -1,6 +1,6 @@
 # My Portfolio
 
-<a align="center" href="https://github.com/marcozsh/portfolio-old">
+<a align="center" href="https://github.com/marcozsh/portfolio-old" target="_blank">
 
 ![Old Badge](https://img.shields.io/badge/Portfolio-old-purple)
 
