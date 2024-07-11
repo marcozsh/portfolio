@@ -2,7 +2,6 @@
 
 <a align="center" href="https://github.com/marcozsh/portfolio-old">
 
-Old version 
 ![Old Badge](https://img.shields.io/badge/Portfolio-old-purple)
 
 </a>
