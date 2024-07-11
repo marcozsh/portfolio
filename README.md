@@ -1,6 +1,6 @@
 # My Portfolio
 
-Old version [https://github.com/marcozsh/portfolio-old] (https://github.com/marcozsh/portfolio-old)
+Old version ![https://github.com/marcozsh/portfolio-old] (https://github.com/marcozsh/portfolio-old)
 
 <div align="center">
 <a href="">
