@@ -7,7 +7,10 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.5s;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -16,6 +19,17 @@
   }
 }
 
+html {
+  background-color: rgb(15, 20, 26);
+  color: white;
+  /*scroll-behavior: smooth;*/
+  /*overflow-y: scroll;*/
+  backdrop-filter: blur(3021300px);
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+/*
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -25,7 +39,45 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+*/
 
+main article {
+  width: 70%;
+}
+article span {
+  margin: 35px;
+}
+@media (max-width: 1366px) {
+  main article {
+    width: 95%;
+  }
+}
+@media (min-width: 992px) {
+  main article {
+    min-height: 100vh;
+  }
+}
+@media (max-width: 992px) {
+  main article {
+    min-height: 100vh;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  p {
+    line-height: 1.5rem !important;
+  }
+}
+
+.dev {
+  view-transition-name: dev;
+}
+
+.zoom {
+  zoom: 75%;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
