@@ -6,6 +6,7 @@ Old version [https://github.com/marcozsh/portfolio-old] (https://github.com/marc
 <a href="">
 <img src="./public/front-page.png">
 </a>
+<p></p>
 </div>
 
 <div align="center">
