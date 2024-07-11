@@ -12,8 +12,8 @@ export default function CvHeader() {
       <div className="mt-3 flex flex-row justify-start text-lg opacity-50">
         <div className="m-0 flex flex-row items-center gap-2">
           <Image src={mailurl} alt="mail image" width={15} height={15} />
-          <Link href={"mailto:marc.penar@outlook.cl"}>
-            marc.penar@outlook.cl
+          <Link href={"mailto:marcozsh@marcozsh.dev"}>
+            marcozsh@marcozsh.dev
           </Link>
         </div>
         <div className="ml-4 flex flex-row items-center gap-2">

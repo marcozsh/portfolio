@@ -17,10 +17,10 @@ export default function Footer() {
           <Image src="/mail.png" alt="mail image" width={30} height={30} />
           <Link
             className="pt-[4px] underline"
-            href="mailto:marc.penar@outlook.cl"
+            href="mailto:marcozsh@marcozsh.dev"
             target="_blank"
           >
-            marc.penar@outlook.cl
+            marcozsh@marcozsh.dev
           </Link>
         </div>
         <Link
