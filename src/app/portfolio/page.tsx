@@ -6,7 +6,6 @@ import LandingPage from "@/components/landing_page/landing-page";
 import Separator from "@/components/page_separator/separator";
 import Projects from "@/components/projects/projects";
 import Link from "next/link";
-import CvButton from "@/components/menu_btn/cv-button";
 import MenuBtn from "@/components/menu_btn/menu-btn";
 
 export default function IndexPage() {
@@ -14,7 +13,6 @@ export default function IndexPage() {
     <>
       <CustomNavBar index={false}/>
       <MenuBtn index={false}/>
-      <CvButton download={false} href="portfolio/cv"/>
       <main className="w-auto flex flex-col items-center 2xl:pl-56 pl-0">
         <LandingBackground />
         <Link

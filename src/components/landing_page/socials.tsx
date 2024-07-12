@@ -8,8 +8,13 @@ export default function Socials() {
       {socials.map((social) => {
         const LinkIcon = social.icon;
         return (
-          <Link key={social.name} href={social.href} target="_blank" >
-            <Image src={LinkIcon} alt={social.description} width={50} height={50}/>
+          <Link key={social.name} href={social.href} target="_blank">
+            <Image
+              src={LinkIcon}
+              alt={social.description}
+              width={50}
+              height={50}
+            />
           </Link>
         );
       })}

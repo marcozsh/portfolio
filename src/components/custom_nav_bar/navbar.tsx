@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import NavLinks from "./nav-links";
-//import Link from "next/link";
 import {Link} from "next-view-transitions";
 import { CustomNavType } from "@/types/custom-nav-bar";
 
