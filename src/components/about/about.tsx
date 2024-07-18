@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <span className="text-5xl 992px:text-[1.4rem]">💫 SOBRE M&Iacute;</span>
+      <span className="text-5xl 992px:text-[1.4rem] m-5">💫 SOBRE M&Iacute;</span>
       <p className="max-w-5xl text-[18px] leading-7 text-pretty my-[18px]">
         <strong>Ingeniero de software</strong> egresado en el año 2023 con más
         de 2 años de experiencia como

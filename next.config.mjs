@@ -5,10 +5,6 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "readme-typing-svg.demolab.com",
-      },
-      {
-        protocol: "https",
         hostname: "img.shields.io",
       },
     ],

@@ -44,9 +44,6 @@ body {
 main article {
   width: 70%;
 }
-article span {
-  margin: 35px;
-}
 @media (max-width: 1366px) {
   main article {
     width: 95%;

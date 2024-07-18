@@ -4,7 +4,7 @@ import { projects } from "@/data/projects";
 export default function Projects() {
   return (
     <>
-      <span className="text-5xl 992px:text-[1.4rem]">💼 PROYECTOS</span>
+      <span className="text-5xl 992px:text-[1.4rem] m-5">💼 PROYECTOS</span>
       <div className="flex w-full flex-wrap gap-[10px] 1777px:justify-center">
         {projects?.map((p, i) => {
           return (
