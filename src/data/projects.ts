@@ -28,7 +28,7 @@ export const projects = [
       },
       {
         visible: true,
-        link: "https://github.com/marcozsh/google_clone",
+        link: "https://computecnicos.vercel.app/",
         type: 2,
       },
     ],
