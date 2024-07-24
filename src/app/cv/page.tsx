@@ -41,16 +41,16 @@ export default function CvPage() {
             <aside className="md:w-[900px] pl-2 md:ml-10 mt-6 md:p-3 border-l-2 border-l-[rgb(243,243,243)] border-solid xl:flex xl:flex-col">
               <CvPersonalData />
               <CvSkill
-                sectitle="Lenguajes de programación"
-                skill={["PHP", "JavaScript", "Python"]}
+	      sectitle="Lenguajes de programación"
+	      skill={["PHP", "JavaScript", "TypeScript","Python"]}
               />
-              <CvSkill sectitle="Diseño" skill={["HTML", "CSS"]} />
+              <CvSkill sectitle="Diseño" skill={["HTML", "CSS", "Tailwind CSS"]} />
               <CvSkill
                 sectitle="Bases de datos"
                 skill={["PostgreSQL", "MySQL"]}
               />
-              <CvSkill sectitle="Frameworks" skill={["Django"]} />
-              <CvSkill sectitle="Otros" skill={["Git", "Markdown (.md)"]} />
+              <CvSkill sectitle="Frameworks" skill={["Django","React","NextJS"]} />
+              <CvSkill sectitle="Otros" skill={["Git", "Markdown (.md)", "Vercel - Deploy con NextJS"]} />
               <CvSkill
                 sectitle="Idiomas"
                 skill={["Inglés Nivel Técnico - Medio"]}

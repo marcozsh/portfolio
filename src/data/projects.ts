@@ -9,10 +9,50 @@ import {
   react,
   tailwind,
   ts,
+  postgres,
 } from "@/data/links";
 
 export const projects = [
+  
   {
+    name: "Computecnicos",
+    description:
+      "Proyecto realizado practicar NextJS, NextUI, TypeScript y Form Actions",
+    image: "/computecnicos.png",
+    link: "https://computecnicos.vercel.app/",
+    links: [
+      {
+        visible: true,
+        link: "https://github.com/marcozsh/computecnicos",
+        type: 1,
+      },
+      {
+        visible: true,
+        link: "https://github.com/marcozsh/google_clone",
+        type: 2,
+      },
+    ],
+    technology: [
+      {
+        link: ts,
+        alt: "typescript",
+      },
+      {
+        link: react,
+        alt: "react",
+      },
+      {
+        link: nextjs,
+        alt: "nextjs",
+      },
+      {
+        link: tailwind,
+        alt: "tailwindcss",
+      },
+      { link: postgres, alt: "postgres" },
+    ],
+  },
+{
     name: "Marcozsh's Blog",
     description:
       "Proyecto realizado para prácticar React, NextJS y Django como backend",
@@ -85,34 +125,6 @@ export const projects = [
       {
         link: mysql,
         alt: "mysql",
-      },
-    ],
-  },
-  {
-    name: "Google Clone",
-    description: "Proyecto realizado para práticar HTML Y CSS",
-    image: "/Google_clone.png",
-    link: "https://marcozsh.github.io/google_clone/",
-    links: [
-      {
-        visible: true,
-        link: "https://github.com/marcozsh/google_clone",
-        type: 1,
-      },
-      {
-        visible: true,
-        link: "https://marcozsh.github.io/google_clone/",
-        type: 2,
-      },
-    ],
-    technology: [
-      {
-        link: html,
-        alt: "html",
-      },
-      {
-        link: css,
-        alt: "css",
       },
     ],
   },
