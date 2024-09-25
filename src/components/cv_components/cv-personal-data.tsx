@@ -7,7 +7,7 @@ export default function CvPersonalData() {
       <CvSecTitle title="Datos Personales" />
       <span className="opacity-50">Sitio Web</span>
       <Link href="/portfolio" target="_blank">
-        marcozsh.com
+        marcozsh.dev
       </Link>
       <span className="opacity-50">Linkedin</span>
       <Link href="https://www.linkedin.com/in/marcozsh/" target="_blank">
