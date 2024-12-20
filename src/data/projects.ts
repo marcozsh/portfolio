@@ -21,12 +21,12 @@ export const projects = [
     links: [
       {
         visible: true,
-        link: "https://img-to-text-eta.vercel.app/home",
+        link: "https://github.com/marcozsh/img-to-text",
         type: 1,
       },
       {
         visible: true,
-        link: "https://github.com/marcozsh/img-to-text",
+        link: "https://img-to-text-eta.vercel.app/home",
         type: 2,
       },
     ],
@@ -54,7 +54,7 @@ export const projects = [
   {
     name: "Computecnicos",
     description:
-      "Proyecto realizado practicar NextJS, NextUI, TypeScript y Form Actions",
+      "Landing page para servicio técnico de computadoras",
     image: "/computecnicos.png",
     link: "https://computecnicos.vercel.app/",
     links: [
